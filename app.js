@@ -206,10 +206,13 @@ app.post("/send-email", (req, res) => {
       endDate
     );
 
-    res.send(`Email sending started successfully.<br>Cancel Email<form action="/cancel-email" method="POST"><input type="text" name="username" placeholder="Enter username" required/><button type="submit">cancel</button></form>`
+    res.send(`Email sending started successfully.<br> <a href="/cancel-email">Cancel Email</a>`
     );
   });
 });
+app.get("/cancel-email", (req,res)=>{
+  res.sendFile(__dirname + "/cancelEmail.html");
+})
 app.post("/cancel-email", async (req, res) => {
   if (intervalId) {
     clearInterval(intervalId);

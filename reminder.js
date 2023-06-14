@@ -44,7 +44,7 @@ router.post("/send-email", (req, res) => {
     const mailOptions = {
       from: process.env.Mail,
       to: email,
-      subject: "Hello from Node.js",
+      subject: "DoseWise",
       html: html,
     };
 
