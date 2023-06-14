@@ -36,5 +36,5 @@ Visit live: https://dosewise.onrender.com
 
 ## Screenshots
 
-![App Screenshot](images/output.png)
+![App Screenshot](public/images/output.png)
 
