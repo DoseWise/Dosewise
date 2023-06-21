@@ -177,7 +177,7 @@ File Name: responsive.css
     .site-navbar ul.open {
         max-height: 100vh;
         padding-bottom: 25px;
-        overflow: visible;
+        overflow: visible; 
     }
     /* navbar css for mobile end */
 }
@@ -186,9 +186,9 @@ File Name: responsive.css
     .full_bg {
         height: 100%;
     }
-    .slider_main {
+    /* .slider_main {
         padding: 50px 0 80px 0;
-    }
+    } */
     .logo {
         text-align: left;
     }
@@ -252,40 +252,41 @@ File Name: responsive.css
     .navbar-area {
         margin-top: -67px;
     }
-    .nav-toggler {
+    /* .nav-toggler {
         display: block;
         position: absolute;
         right: 15px;
         z-index: 99999;
-    }
+    } */
     .site-navbar {
         min-height: 60px;
     }
     .site-navbar ul {
         position: absolute;
         width: 100%;
-        left: 0px;
+        /* left: 0px; */
         top: 0px;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
-        background-color: #fff;
+        background-color: #ffffff;
         max-height: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
         transition: .3s;
         z-index: 99999;
         box-shadow: 0 0 10px rgb(192, 190, 182);
     }
-    .site-navbar ul li {
+    /* .site-navbar ul li {
         width: 100%;
         text-align: left;
         padding-right: 0;
-    }
-    .site-navbar ul li a {
+    } */
+    /* .site-navbar ul li a {
         padding: 25px 25px 0px 25px;
     }
     .site-navbar ul.open {
         max-height: 100vh;
         padding-bottom: 25px;
         overflow: visible;
-    }
+    } */
 }

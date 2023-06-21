@@ -345,7 +345,7 @@ button {
 
 /* nav-toggler css start */
 
-.nav-toggler {
+/* .nav-toggler {
     border: 3px solid #363636;
     padding: 5px;
     background-color: transparent;
@@ -353,9 +353,9 @@ button {
     height: 39px;
     display: none;
     z-index: 99999;
-}
+} */
 
-.nav-toggler span,
+/* .nav-toggler span,
 .nav-toggler span:before,
 .nav-toggler span:after {
     width: 28px;
@@ -363,9 +363,9 @@ button {
     background-color: #363636;
     display: block;
     transition: .3s;
-}
+} */
 
-.nav-toggler span:before {
+/* .nav-toggler span:before {
     content: '';
     transform: translateY(-9px);
 }
@@ -373,10 +373,10 @@ button {
 .nav-toggler span:after {
     content: '';
     transform: translateY(6px);
-}
+} */
 
-.nav-toggler.toggler-open span {
-    background-color: transparent;
+/* .nav-toggler.toggler-open span {
+    background-color: black;
 }
 
 .nav-toggler.toggler-open span:before {
@@ -385,7 +385,7 @@ button {
 
 .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
-}
+} */
 
 
 /* nav-toggler css start */
