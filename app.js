@@ -116,7 +116,7 @@ app.post("/login", (req,res)=>{
 
 // forget password
 app.get("/updatepass", (req,res)=>{
-    res.send(`<form action='/updatepass' method='post'>
+    res.send(`<form action='/updatepass' method='post' style="background-color:#526D82; color: #fff; margin:0 auto;">
     <input type="text" name="username" placeholder="Enter username" required/>
     <input type='password' name='newPassword' placeholder='Enter New Password' required/>
     <button type='submit'>Update</button>
@@ -235,7 +235,9 @@ app.post("/cancel-email", async (req, res) => {
      if (user.pills <= 0) {
        user.pills = 0;
        console.log("Pills over");
-       return res.send("Pills Over.<br><a href='/'>🏠Home</a>");
+       return res.send(`<div style="background-color:#526D82; color: #fff; margin:0 auto;">
+       Pills Over.<br><a href='/'>🏠Home</a>
+       </div>`);
      }
 
      // Save the updated user
