@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap');
@@ -98,7 +96,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -144,7 +142,7 @@ img {
     height: auto;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -336,6 +334,7 @@ button {
 .site-navbar ul li a:hover {
     color: #3083ff;
 }
+
 .site-navbar ul li a.active {
     color: #3083ff;
 }
@@ -345,7 +344,7 @@ button {
 
 /* nav-toggler css start */
 
-/* .nav-toggler {
+.nav-toggler {
     border: 3px solid #363636;
     padding: 5px;
     background-color: transparent;
@@ -353,9 +352,9 @@ button {
     height: 39px;
     display: none;
     z-index: 99999;
-} */
+}
 
-/* .nav-toggler span,
+.nav-toggler span,
 .nav-toggler span:before,
 .nav-toggler span:after {
     width: 28px;
@@ -363,9 +362,9 @@ button {
     background-color: #363636;
     display: block;
     transition: .3s;
-} */
+}
 
-/* .nav-toggler span:before {
+.nav-toggler span:before {
     content: '';
     transform: translateY(-9px);
 }
@@ -373,10 +372,10 @@ button {
 .nav-toggler span:after {
     content: '';
     transform: translateY(6px);
-} */
+}
 
-/* .nav-toggler.toggler-open span {
-    background-color: black;
+.nav-toggler.toggler-open span {
+    background-color: transparent;
 }
 
 .nav-toggler.toggler-open span:before {
@@ -385,7 +384,7 @@ button {
 
 .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
-} */
+}
 
 
 /* nav-toggler css start */
@@ -528,6 +527,7 @@ button {
         transform: scale(0.6);
         opacity: 1;
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -695,6 +695,7 @@ button {
     transition: ease-in all 0.5s;
     color: #fff;
 }
+
 
 
 /** end services section **/
@@ -1189,16 +1190,19 @@ ul.social_icon li a i:hover {
 /**  inner page css **/
 
 .blog_page .footer {
-     margin-top: 0px;
+    margin-top: 0px;
 }
+
 .inner_page .full_bg {
     height: 100%;
 }
+
 .inner_page .about {
-     margin-top: 90px;
+    margin-top: 90px;
 }
+
 .inner_page .appointment {
-     margin-top: 90px;
+    margin-top: 90px;
 }
 
 .portfolio_page .footer {
