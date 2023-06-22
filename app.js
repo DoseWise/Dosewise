@@ -56,7 +56,7 @@ app.get("/blog", (req, res) => {
 });
 // contact
 app.get("/contact", (req, res) => {
-  res.sendFile(__dirname + "/contact.html");
+  res.sendFile(__dirname + "/new.html");
 });
 // register
 app.post("/register", (req,res)=>{
