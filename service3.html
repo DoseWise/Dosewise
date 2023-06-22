@@ -46,7 +46,7 @@
           <div class="row d_flex">
             <div class="col-md-3 col-sm-3">
               <div class="logo">
-                <a href="index.html">DoseWise</a>
+                <a href="/">DoseWise</a>
               </div>
             </div>
             <div class="col-md-9 col-sm-9">
@@ -100,19 +100,22 @@
               <p>
                 Effortlessly manage and track your medication stock with our intuitive feature, ensuring you have an accurate inventory at all times and never run out of essential medication
               </p>
-              <a class="read_more" href="service.html">Read More</a>
+              <a class="read_more" href="/service">Read More</a>
               </div>
             </div>
             <div class="col-md-4">
             <div id="ho_shad" class="services_box text_align_left">
               <!-- stock -->
               <h2>Optimize Medication Stock</h2>
-              <form action="/stock" method="POST">
-                <input type="text" name="username" id="user" placeholder="Enter username" required/>
-                <input type="text" name="mname" id="nname" placeholder="Enter medicine name" required/>
-                <input type="number" name="mnum" id="nmum" placeholder="Enter numner of pills" required/>
-                <button type="submit">Save</button>
-                <button type="reset">Clear</button>
+              <form action="/stock" method="POST" style="border: 3px solid black; padding: 8%; color:#FFF; background-color:#526D82; border-radius:4%; margin: 0 auto;">
+                <label for="user">Enter username:</label><br>
+                <input type="text" name="username" id="user" placeholder="" required/>
+                <label for="nname">Enter medicine name: </label><br>
+                <input type="text" name="mname" id="nname" placeholder="" required/>
+                <label for="nnum">Enter numner of pills: </label><br>
+                <input type="number" name="mnum" id="nmum" placeholder="" required/>
+                <button type="submit" style="background-color:rgb(4, 255, 0); border:1px solid black; border-radius:4%; width:30%; margin: 5% 5%; padding: 2%;">Save</button>
+                <button type="reset" style="background-color:rgb(0, 187, 255); border:1px solid black; border-radius:4%; width:30%; margin: 5% 5%; padding: 2%;">Clear</button>
               </form>
               </div>
             </div>
@@ -157,11 +160,11 @@
                   <div class="hedingh3 text_align_left">
                     <h3>Menu</h3>
                     <ul class="menu_footer">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="service.html">Service</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact us</a></li>
+                      <li><a class="active" href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/service">Service</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/contact">Contact us</a></li>
                     </ul>
                   </div>
                 </div>
